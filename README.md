@@ -1,7 +1,5 @@
 # Hormuz Trade Analytics — Trade Analytics API with Visual Dashboard
 
-> **2-Hour Review Task** · Data Engineering / Backend Engineering  
-> Dataset: `hormuz_trade_tier_continental_2026.csv`
 
 ---
 
