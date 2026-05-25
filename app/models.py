@@ -31,4 +31,4 @@ class TradeTrend(Base):
     id = Column(Integer, primary_key=True, index=True)
     year = Column(Integer)
     month = Column(Integer)
-    monthly_trade = Column(Float)
+    monthly_trade = Column(Float) 

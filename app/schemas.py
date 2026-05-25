@@ -34,4 +34,4 @@ class TrendResponse(BaseModel):
     monthly_trade: float
 
     class Config:
-        orm_mode = True
+        orm_mode = True 

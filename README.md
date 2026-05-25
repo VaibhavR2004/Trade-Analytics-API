@@ -30,7 +30,7 @@ trade_analytics_project/
 │
 ├── dataset/
 │   └── hormuz_trade_tier_continental_2026.csv
-│   └── (generated after running notebook):
+├── processed_data/(generated after running notebook):
 │       ├── cleaned_trade_data.csv
 │       ├── top_countries.csv
 │       ├── region_summary.csv
@@ -38,9 +38,20 @@ trade_analytics_project/
 │       └── model_meta.json        ← model coefficients for prediction API
 │
 ├── sql/
-│   └── schema.sql
+│    ├── schema.sql
+│    ├──(postgresql Database images)
+|    ├──region_summary.png
+|    ├──top_country_pg.png
+|    ├──trade_data_pg.png
+|    ├──trade_trend_pg.png
+|
+├── visual/
+│    ├──continent_summary.png
+│    ├──top_flag.png
+│    ├──trade_trend.png
 │
 ├── requirements.txt
+├── .gitignore
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .env
