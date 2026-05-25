@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy.orm import Session
 from app import models
-
+ 
 
 def _scalar_value(value, cast_type):
     if value is None:
