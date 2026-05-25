@@ -96,6 +96,20 @@ jupyter notebook notebooks/analysis.ipynb
 
 # 6. Start the API
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+> If you use a custom virtual environment folder such as `myen`, activate it first or run the exact interpreter:
+>
+> Windows (PowerShell):
+> ```powershell
+> .\myen\Scripts\Activate.ps1
+> python -m pip install -r requirements.txt
+> python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+> ```
+>
+> If you still see `ModuleNotFoundError: No module named 'jose'`, run:
+> ```powershell
+> .\myen\Scripts\python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+> ```
 ```
 
 ---

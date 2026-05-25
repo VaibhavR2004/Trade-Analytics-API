@@ -10,3 +10,5 @@ pandas
 scikit-learn
 statsmodels
 plotly
+python-jose[cryptography]
+passlib

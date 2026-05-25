@@ -32,3 +32,13 @@ class TradeTrend(Base):
     year = Column(Integer)
     month = Column(Integer)
     monthly_trade = Column(Float)
+
+class User(Base):
+
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True)
+
+    username = Column(String, unique=True)
+
+    password = Column(String)
