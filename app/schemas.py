@@ -34,27 +34,4 @@ class TrendResponse(BaseModel):
     monthly_trade: float
 
     class Config:
-<<<<<<< HEAD
         orm_mode = True 
-=======
-        orm_mode = True
-
-
-
-class UserCreate(BaseModel):
-
-    username: str
-    password: str
-
-
-class UserLogin(BaseModel):
-
-    username: str
-    password: str
-
-
-class Token(BaseModel):
-
-    access_token: str
-    token_type: str
->>>>>>> c072ecb2a88d05792490dd67a59a8dd8330ffc70

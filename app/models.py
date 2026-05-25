@@ -31,18 +31,4 @@ class TradeTrend(Base):
     id = Column(Integer, primary_key=True, index=True)
     year = Column(Integer)
     month = Column(Integer)
-<<<<<<< HEAD
     monthly_trade = Column(Float) 
-=======
-    monthly_trade = Column(Float)
-
-class User(Base):
-
-    __tablename__ = "users"
-
-    id = Column(Integer, primary_key=True)
-
-    username = Column(String, unique=True)
-
-    password = Column(String)
->>>>>>> c072ecb2a88d05792490dd67a59a8dd8330ffc70
