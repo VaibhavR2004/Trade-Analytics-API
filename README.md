@@ -34,8 +34,8 @@ trade_analytics_project/
 │       ├── cleaned_trade_data.csv
 │       ├── top_countries.csv
 │       ├── region_summary.csv
-│       ├── monthly_trend.csv
-│       └── model_meta.json        ← model coefficients for prediction API
+│       └──monthly_trend.csv
+│
 │
 ├── sql/
 │    ├── schema.sql
