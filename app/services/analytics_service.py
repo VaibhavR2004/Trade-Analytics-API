@@ -56,4 +56,4 @@ def import_trade_trend(db: Session):
             monthly_trade=_scalar_value(row.get("monthly_transit_cost", row.get("monthly_trade")), float)
         )
         db.add(trend)
-    db.commit()
+    db.commit() 

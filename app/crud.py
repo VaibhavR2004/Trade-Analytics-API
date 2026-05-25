@@ -12,3 +12,4 @@ def get_region_summary(db: Session):
 
 def get_trade_trend(db: Session):
     return db.query(models.TradeTrend).all()
+ 

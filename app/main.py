@@ -11,4 +11,4 @@ app = FastAPI(
 def home():
     return {
         "message": "Trade Analytics Backend Running"
-    }
+    } 
